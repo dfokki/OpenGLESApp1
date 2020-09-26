@@ -11,6 +11,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenGLESApp1.Shared", "Open
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenGLESApp1.iOS.StaticLibrary", "OpenGLESApp1.iOS.StaticLibrary\OpenGLESApp1.iOS.StaticLibrary.vcxproj", "{D0AFC7E0-F955-4DC4-B883-DA0532165006}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3CB75F82-E3F2-41C5-A38E-10686992E992}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		OpenGLESApp1.Shared\OpenGLESApp1.Shared.vcxitems*{65a542cd-28e4-4d77-b71e-143ec5505723}*SharedItemsImports = 9
