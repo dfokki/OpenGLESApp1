@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="OpenGLESApp1.iOS">
+      <UniqueIdentifier>{12ea4e34-3d55-4707-9b1d-bece55be4074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGLESApp1.iOS\Images.xcassets">
+      <UniqueIdentifier>{ec93d851-280b-4c10-9954-3fb21b95705f}</UniqueIdentifier>
+      <Extensions>OpenGLESApp1.iOS\Images.xcassets\*</Extensions>
+    </Filter>
+    <Filter Include="OpenGLESApp1.iOS\Images.xcassets\AppIcon.appiconset">
+      <UniqueIdentifier>{735218bf-432d-4580-b87c-bf0dfa7a2d5b}</UniqueIdentifier>
+      <Extensions>OpenGLESApp1.iOS\Images.xcassets\AppIcon.appiconset\*</Extensions>
+    </Filter>
+    <Filter Include="OpenGLESApp1.iOS\Supporting Files">
+      <UniqueIdentifier>{e5be50a7-a82e-483c-b67c-8ac5c8eee9dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OpenGLESApp1.iOS\AppDelegate.mm">
+      <Filter>OpenGLESApp1.iOS</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLESApp1.iOS\GameViewController.mm">
+      <Filter>OpenGLESApp1.iOS</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLESApp1.iOS\main.mm">
+      <Filter>OpenGLESApp1.iOS\Supporting Files</Filter>
+    </ClCompile>
+    <ClInclude Include="OpenGLESApp1.iOS\AppDelegate.h">
+      <Filter>OpenGLESApp1.iOS</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLESApp1.iOS\GameViewController.h">
+      <Filter>OpenGLESApp1.iOS</Filter>
+    </ClInclude>
+    <Content Include="OpenGLESApp1.iOS\Base.lproj\Main.storyboard">
+      <Filter>OpenGLESApp1.iOS</Filter>
+    </Content>
+    <Content Include="OpenGLESApp1.iOS\Images.xcassets\AppIcon.appiconset\Contents.json">
+      <Filter>OpenGLESApp1.iOS\Images.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <InfoPlist Include="OpenGLESApp1.iOS\Info.plist">
+      <Filter>OpenGLESApp1.iOS\Supporting Files</Filter>
+    </InfoPlist>
+  </ItemGroup>
+</Project>
